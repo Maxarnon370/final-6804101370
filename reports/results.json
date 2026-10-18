@@ -130,7 +130,7 @@
                   "description": "ทดสอบ Login จริงร่วมกับ Inventory Stub ที่จำลองด้วย page.setContent()",
                   "location": {
                     "file": "C:\\max_370\\final-exam\\tests\\integration\\IT-01.spec.ts",
-                    "line": 2,
+                    "line": 3,
                     "column": 5
                   }
                 }
@@ -143,7 +143,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 366,
+                  "duration": 4268,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -151,25 +151,25 @@
                   "steps": [
                     {
                       "title": "Login ผ่านหน้าเว็บไซต์จริง",
-                      "duration": 0
+                      "duration": 3542
                     },
                     {
                       "title": "สร้าง Inventory Stub",
-                      "duration": 0
+                      "duration": 413
                     },
                     {
                       "title": "ตรวจสอบผลจาก Stub",
-                      "duration": 0
+                      "duration": 17
                     }
                   ],
-                  "startTime": "2026-10-16T07:38:29.656Z",
+                  "startTime": "2026-10-18T14:30:10.884Z",
                   "annotations": [
                     {
                       "type": "description",
                       "description": "ทดสอบ Login จริงร่วมกับ Inventory Stub ที่จำลองด้วย page.setContent()",
                       "location": {
                         "file": "C:\\max_370\\final-exam\\tests\\integration\\IT-01.spec.ts",
-                        "line": 2,
+                        "line": 3,
                         "column": 5
                       }
                     }
@@ -182,7 +182,7 @@
           ],
           "id": "aeaf4dcca87754465641-6a93853910bbaba5daba",
           "file": "integration/IT-01.spec.ts",
-          "line": 2,
+          "line": 3,
           "column": 5
         }
       ]
@@ -206,7 +206,7 @@
                   "description": "ใช้ Driver เตรียมสถานะ Login เพื่อทดสอบ Inventory และ Cart จริง",
                   "location": {
                     "file": "C:\\max_370\\final-exam\\tests\\integration\\IT-02.spec.ts",
-                    "line": 2,
+                    "line": 18,
                     "column": 5
                   }
                 }
@@ -219,7 +219,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3,
+                  "duration": 914,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -227,29 +227,29 @@
                   "steps": [
                     {
                       "title": "สร้าง Driver และเปิด Inventory",
-                      "duration": 0
+                      "duration": 618
                     },
                     {
                       "title": "ตรวจสอบ Inventory จริง",
-                      "duration": 0
+                      "duration": 4
                     },
                     {
                       "title": "เพิ่มสินค้า 2 รายการ",
-                      "duration": 0
+                      "duration": 102
                     },
                     {
                       "title": "ตรวจสอบสินค้าใน Cart",
-                      "duration": 0
+                      "duration": 69
                     }
                   ],
-                  "startTime": "2026-10-16T07:38:30.155Z",
+                  "startTime": "2026-10-18T14:30:15.486Z",
                   "annotations": [
                     {
                       "type": "description",
                       "description": "ใช้ Driver เตรียมสถานะ Login เพื่อทดสอบ Inventory และ Cart จริง",
                       "location": {
                         "file": "C:\\max_370\\final-exam\\tests\\integration\\IT-02.spec.ts",
-                        "line": 2,
+                        "line": 18,
                         "column": 5
                       }
                     }
@@ -262,7 +262,7 @@
           ],
           "id": "4fa6bfb55dc95b1f15b3-0a804e4898f3b2703bff",
           "file": "integration/IT-02.spec.ts",
-          "line": 2,
+          "line": 18,
           "column": 5
         }
       ]
@@ -286,7 +286,7 @@
                   "description": "ทดสอบการซื้อ Backpack และ Bike Light ตั้งแต่ Login จนสั่งซื้อสำเร็จ",
                   "location": {
                     "file": "C:\\max_370\\final-exam\\tests\\system\\ST-01.spec.ts",
-                    "line": 2,
+                    "line": 3,
                     "column": 5
                   }
                 }
@@ -299,7 +299,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 134,
+                  "duration": 1216,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -307,37 +307,37 @@
                   "steps": [
                     {
                       "title": "Login และตรวจสอบ Inventory",
-                      "duration": 0
+                      "duration": 733
                     },
                     {
                       "title": "เพิ่มสินค้าสองรายการ",
-                      "duration": 0
+                      "duration": 68
                     },
                     {
                       "title": "ตรวจสอบ Cart",
-                      "duration": 0
+                      "duration": 91
                     },
                     {
                       "title": "กรอก Checkout Information",
-                      "duration": 0
+                      "duration": 123
                     },
                     {
                       "title": "ตรวจสอบ Overview และสั่งซื้อ",
-                      "duration": 0
+                      "duration": 63
                     },
                     {
                       "title": "ตรวจสอบ Order Complete",
-                      "duration": 0
+                      "duration": 24
                     }
                   ],
-                  "startTime": "2026-10-16T07:38:30.174Z",
+                  "startTime": "2026-10-18T14:30:16.414Z",
                   "annotations": [
                     {
                       "type": "description",
                       "description": "ทดสอบการซื้อ Backpack และ Bike Light ตั้งแต่ Login จนสั่งซื้อสำเร็จ",
                       "location": {
                         "file": "C:\\max_370\\final-exam\\tests\\system\\ST-01.spec.ts",
-                        "line": 2,
+                        "line": 3,
                         "column": 5
                       }
                     }
@@ -350,7 +350,7 @@
           ],
           "id": "b437a3ea838a6734331f-68d25959565fafbf0274",
           "file": "system/ST-01.spec.ts",
-          "line": 2,
+          "line": 3,
           "column": 5
         }
       ]
@@ -374,7 +374,7 @@
                   "description": "ตรวจสอบ Checkout Validation และการแก้ไขข้อมูลจนสั่งซื้อสำเร็จ",
                   "location": {
                     "file": "C:\\max_370\\final-exam\\tests\\system\\ST-02.spec.ts",
-                    "line": 2,
+                    "line": 3,
                     "column": 5
                   }
                 }
@@ -387,7 +387,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 131,
+                  "duration": 1202,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -395,33 +395,33 @@
                   "steps": [
                     {
                       "title": "Login เพิ่มสินค้า และเปิด Checkout",
-                      "duration": 0
+                      "duration": 751
                     },
                     {
                       "title": "ตรวจสอบ First Name is required",
-                      "duration": 0
+                      "duration": 58
                     },
                     {
                       "title": "ตรวจสอบ Last Name is required",
-                      "duration": 0
+                      "duration": 59
                     },
                     {
                       "title": "ตรวจสอบ Postal Code is required",
-                      "duration": 0
+                      "duration": 75
                     },
                     {
                       "title": "แก้ไขข้อมูลและสั่งซื้อสำเร็จ",
-                      "duration": 0
+                      "duration": 135
                     }
                   ],
-                  "startTime": "2026-10-16T07:38:30.322Z",
+                  "startTime": "2026-10-18T14:30:17.640Z",
                   "annotations": [
                     {
                       "type": "description",
                       "description": "ตรวจสอบ Checkout Validation และการแก้ไขข้อมูลจนสั่งซื้อสำเร็จ",
                       "location": {
                         "file": "C:\\max_370\\final-exam\\tests\\system\\ST-02.spec.ts",
-                        "line": 2,
+                        "line": 3,
                         "column": 5
                       }
                     }
@@ -434,7 +434,7 @@
           ],
           "id": "56c0a83e2e23481adf32-fcdcf2d10841c1c1d778",
           "file": "system/ST-02.spec.ts",
-          "line": 2,
+          "line": 3,
           "column": 5
         }
       ]
@@ -449,7 +449,7 @@
         {
           "title": "UT-01: Login Form Validation",
           "file": "unit/UT-01.spec.ts",
-          "line": 2,
+          "line": 3,
           "column": 6,
           "specs": [
             {
@@ -465,7 +465,7 @@
                       "description": "ตรวจสอบการ Login เมื่อไม่กรอก Username และ Password",
                       "location": {
                         "file": "C:\\max_370\\final-exam\\tests\\unit\\UT-01.spec.ts",
-                        "line": 3,
+                        "line": 5,
                         "column": 9
                       }
                     }
@@ -478,7 +478,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 149,
+                      "duration": 921,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -486,25 +486,25 @@
                       "steps": [
                         {
                           "title": "เปิดหน้า Login",
-                          "duration": 0
+                          "duration": 604
                         },
                         {
                           "title": "ส่งฟอร์มโดยไม่กรอกข้อมูล",
-                          "duration": 0
+                          "duration": 44
                         },
                         {
                           "title": "ตรวจสอบ Error และ URL",
-                          "duration": 0
+                          "duration": 16
                         }
                       ],
-                      "startTime": "2026-10-16T07:38:30.467Z",
+                      "startTime": "2026-10-18T14:30:18.854Z",
                       "annotations": [
                         {
                           "type": "description",
                           "description": "ตรวจสอบการ Login เมื่อไม่กรอก Username และ Password",
                           "location": {
                             "file": "C:\\max_370\\final-exam\\tests\\unit\\UT-01.spec.ts",
-                            "line": 3,
+                            "line": 5,
                             "column": 9
                           }
                         }
@@ -517,7 +517,7 @@
               ],
               "id": "8c739bc89a6720d0c629-54f4b4234188f85dc805",
               "file": "unit/UT-01.spec.ts",
-              "line": 3,
+              "line": 5,
               "column": 9
             },
             {
@@ -533,7 +533,7 @@
                       "description": "ตรวจสอบการ Login เมื่อกรอก Username แต่ไม่กรอก Password",
                       "location": {
                         "file": "C:\\max_370\\final-exam\\tests\\unit\\UT-01.spec.ts",
-                        "line": 20,
+                        "line": 31,
                         "column": 9
                       }
                     }
@@ -546,7 +546,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 137,
+                      "duration": 841,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -554,25 +554,25 @@
                       "steps": [
                         {
                           "title": "เปิดหน้า Login และกรอก Username",
-                          "duration": 0
+                          "duration": 491
                         },
                         {
                           "title": "กด Login โดยไม่กรอก Password",
-                          "duration": 0
+                          "duration": 36
                         },
                         {
                           "title": "ตรวจสอบ Error และ URL",
-                          "duration": 0
+                          "duration": 15
                         }
                       ],
-                      "startTime": "2026-10-16T07:38:30.624Z",
+                      "startTime": "2026-10-18T14:30:19.781Z",
                       "annotations": [
                         {
                           "type": "description",
                           "description": "ตรวจสอบการ Login เมื่อกรอก Username แต่ไม่กรอก Password",
                           "location": {
                             "file": "C:\\max_370\\final-exam\\tests\\unit\\UT-01.spec.ts",
-                            "line": 20,
+                            "line": 31,
                             "column": 9
                           }
                         }
@@ -585,7 +585,7 @@
               ],
               "id": "8c739bc89a6720d0c629-416b2ace0476596fcfd7",
               "file": "unit/UT-01.spec.ts",
-              "line": 20,
+              "line": 31,
               "column": 9
             },
             {
@@ -601,7 +601,7 @@
                       "description": "ตรวจสอบการ Login เมื่อ Username และ Password ไม่ถูกต้อง",
                       "location": {
                         "file": "C:\\max_370\\final-exam\\tests\\unit\\UT-01.spec.ts",
-                        "line": 36,
+                        "line": 56,
                         "column": 9
                       }
                     }
@@ -614,7 +614,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 143,
+                      "duration": 845,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -622,25 +622,25 @@
                       "steps": [
                         {
                           "title": "เปิดหน้า Login และกรอกข้อมูลผิด",
-                          "duration": 0
+                          "duration": 522
                         },
                         {
                           "title": "กด Login",
-                          "duration": 0
+                          "duration": 49
                         },
                         {
                           "title": "ตรวจสอบ Error และ URL",
-                          "duration": 0
+                          "duration": 15
                         }
                       ],
-                      "startTime": "2026-10-16T07:38:30.768Z",
+                      "startTime": "2026-10-18T14:30:20.628Z",
                       "annotations": [
                         {
                           "type": "description",
                           "description": "ตรวจสอบการ Login เมื่อ Username และ Password ไม่ถูกต้อง",
                           "location": {
                             "file": "C:\\max_370\\final-exam\\tests\\unit\\UT-01.spec.ts",
-                            "line": 36,
+                            "line": 56,
                             "column": 9
                           }
                         }
@@ -653,7 +653,7 @@
               ],
               "id": "8c739bc89a6720d0c629-40c069adb5013c050578",
               "file": "unit/UT-01.spec.ts",
-              "line": 36,
+              "line": 56,
               "column": 9
             }
           ]
@@ -679,7 +679,7 @@
                   "description": "ตรวจสอบสถานะปุ่ม Add to cart และ Remove รวมถึง Cart Badge",
                   "location": {
                     "file": "C:\\max_370\\final-exam\\tests\\unit\\UT-02.spec.ts",
-                    "line": 2,
+                    "line": 3,
                     "column": 5
                   }
                 }
@@ -692,7 +692,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 137,
+                  "duration": 963,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -700,29 +700,29 @@
                   "steps": [
                     {
                       "title": "Login เข้าสู่ระบบ",
-                      "duration": 0
+                      "duration": 600
                     },
                     {
                       "title": "ตรวจสอบปุ่มก่อนเพิ่มสินค้า",
-                      "duration": 0
+                      "duration": 48
                     },
                     {
                       "title": "เพิ่มสินค้าเข้า Cart",
-                      "duration": 0
+                      "duration": 43
                     },
                     {
                       "title": "ลบสินค้าออกจาก Cart",
-                      "duration": 0
+                      "duration": 53
                     }
                   ],
-                  "startTime": "2026-10-16T07:38:30.923Z",
+                  "startTime": "2026-10-18T14:30:21.484Z",
                   "annotations": [
                     {
                       "type": "description",
                       "description": "ตรวจสอบสถานะปุ่ม Add to cart และ Remove รวมถึง Cart Badge",
                       "location": {
                         "file": "C:\\max_370\\final-exam\\tests\\unit\\UT-02.spec.ts",
-                        "line": 2,
+                        "line": 3,
                         "column": 5
                       }
                     }
@@ -735,7 +735,7 @@
           ],
           "id": "6c91503e0156bd8f2507-e7443e8816072dd5f9a1",
           "file": "unit/UT-02.spec.ts",
-          "line": 2,
+          "line": 3,
           "column": 5
         }
       ]
@@ -743,8 +743,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-16T07:38:29.301Z",
-    "duration": 1841.12,
+    "startTime": "2026-10-18T14:30:10.516Z",
+    "duration": 12026.872000000001,
     "expected": 8,
     "skipped": 0,
     "unexpected": 0,
